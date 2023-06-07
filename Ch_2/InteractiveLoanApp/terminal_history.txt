@@ -1,0 +1,23 @@
+
+
+  996  git clone https://github.com/LovedeepSingh89/InteractiveLoanApp.git
+  997  ls
+  998  cd InteractiveLoanApp
+  999  ls
+ 1000  code .
+ 1001  ls
+ 1002  cd InteractiveLoanApp
+ 1003  ls
+ 1004  git status
+ 1005  git add loan_qualifier_app
+ 1006  git commit -m "uploaded ReadMe and the Application"
+ 1007  git status
+ 1008  git oush
+ 1009  git push
+ 1010  history 50 > terminal_history.txt
+ 1011  ls
+ 1012  cd
+ 1013  cd desktop
+ 1014  cd Ch_2
+ 1015  ls
+ 1016  cd InteractiveLoanApp
