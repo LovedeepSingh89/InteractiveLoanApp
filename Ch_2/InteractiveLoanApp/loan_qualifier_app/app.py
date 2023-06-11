@@ -128,9 +128,9 @@ def save_qualifying_loans(qualifying_loans):
             result = save_csv(qualifying_loans)
         else:
             # verify desired file location if not the default
-            filepath = questionary.text(
+            csvpath = questionary.text(
                 "Please enter the filepath, including both directory path and file name, \n   where you would like to save the loan information. \n   Either absolute or relative filepaths may be used.").ask()
-            result = save_csv(qualifying_loans, filepath)
+            result = save_csv(qualifying_loans, csvpath)
     # if user chooses not to save the file, print a confirmation that no file was saved
     else:
         print("File not saved. Please rerun application if a new file needs to be generated.")
